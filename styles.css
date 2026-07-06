@@ -66,6 +66,16 @@ body {
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 0.3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
 }
 
 .nav {
