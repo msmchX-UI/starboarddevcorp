@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starboard | Home</title>
+    <meta
+      name="description"
+      content="Starboard is a clean, editable static website starter deployed with GitHub Pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand">Starboard</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button id="themeToggle" class="btn btn-ghost" type="button" aria-label="Toggle theme">
+          🌗
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">GitHub Pages Starter</p>
+            <h1>Build, edit, and ship your website fast.</h1>
+            <p class="lead">
+              This is a lightweight static site starter called <strong>Starboard</strong>. Customize text,
+              colors, sections, and layout directly in source files.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn" href="https://github.com/msmchX-UI/starboarddevcorp" target="_blank" rel="noreferrer">Source Code</a>
+            </div>
+          </div>
+          <aside class="card">
+            <h2>Quick Edit Guide</h2>
+            <ul>
+              <li>Edit content in <code>index.html</code></li>
+              <li>Change colors/styles in <code>styles.css</code></li>
+              <li>Add interactions in <code>script.js</code></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            Replace this section with your own introduction, company profile, portfolio summary, or product story.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>Project One</h3>
+              <p>Short description of your project and what problem it solves.</p>
+            </article>
+            <article class="project-card">
+              <h3>Project Two</h3>
+              <p>Highlight your tech stack, scope, and impact in 1–2 lines.</p>
+            </article>
+            <article class="project-card">
+              <h3>Project Three</h3>
+              <p>Link to a demo, GitHub repo, or case study from here.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>
+            Add your contact email, social links, or a form provider integration.
+          </p>
+          <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Starboard. All rights reserved.</p>
+        <a href="https://github.com/msmchX-UI" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
